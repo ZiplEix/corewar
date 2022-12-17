@@ -1,0 +1,23 @@
+; Nom : Octobre Rouge
+; Taille : 20 octets
+;
+; Instructions :
+; 0x00 : MOV R1, 1
+; 0x01 : MOV R2, 200
+; 0x02 : COPY R1, R0, R2
+; 0x03 : SPL 0
+; 0x04 : JMP 2
+; 0x05 : MOV R1, 1
+; 0x06 : MOV R2, 200
+; 0x07 : COPY R0, R1, R2
+; 0x08 : SPL 0
+; 0x09 : JMP 6
+; 0x0A : JZ 8, 0
+; 0x0B : JZ 3, 0
+; 0x0C : MOV R1, 1
+; 0x0D : MOV R2, 200
+; 0x0E : COPY R1, R0, R2
+; 0x0F : SPL 0
+; 0x10 : JMP 0
+(Octobre Rouge, 20)
+0 1 0 2 0 0 5 0 6 0 8 0 3 0 1 0 2 0 0 0 10 0

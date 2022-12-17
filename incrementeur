@@ -1,0 +1,8 @@
+; Nom : Incrementeur
+; Taille : 4 octets
+;
+; Instructions :
+; 0x00 : ADD R1, R1, 1
+; 0x01 : JMP 0
+(Incrementeur, 4)
+0 1 0 1

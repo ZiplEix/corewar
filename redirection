@@ -1,0 +1,8 @@
+; Nom : Redirection
+; Taille : 2 octets
+;
+; Instructions :
+; 0x00 : JMP 1
+; 0x01 : SPL 0
+(Redirection, 2)
+0 1
